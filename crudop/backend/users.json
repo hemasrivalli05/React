@@ -1,0 +1,25 @@
+{
+  "candidate": [
+    {
+      "firstname": "MAHESH",
+      "lastname": "G",
+      "age": "45",
+      "city": "AP",
+      "id": "1"
+    },
+    {
+      "firstname": "NAMRATA",
+      "lastname": "GS",
+      "age": "35",
+      "city": "AP",
+      "id": "2"
+    },
+    {
+      "id": "c0df",
+      "firstname": "Hema ",
+      "lastname": "R",
+      "age": "22",
+      "city": "Delhi"
+    }
+  ]
+}
