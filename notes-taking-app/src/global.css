@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #51cd83;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    position: sticky;
+    top: 0px; /*  where u want to position fixit */
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.formBlock{
+    background-color: #51cd83;
+    width: 40%;
+    height: 540px;
+    border-radius: 2px;
+    margin: 40px;
+}
+
+.form-content{
+    margin: 20px;
+}
+
+.form-content label{
+    color: white;
+    display: block;
+    font-size: 20px;
+    /* margin-left: 12px; */
+    padding-top: 10px;
+}
+
+.form-content input,textarea{
+    border: none;
+    border: 1px solid grey;
+    width: 90%;
+    border-radius: 2px;
+    padding: 12px;
+    /* margin-left: 12px; */
+}
+
+.form-content select{
+    /* margin-left: 12px; */
+}
+
+button{
+    padding: 10px;
+    margin-left: 20px;
+    /* background-color: #51cd83; */
+}
+button:hover{
+        background-color: #11d15e;
+        color: white;
+}
+
+.displaySection{
+    width: 50%;
+}
+
+.selectDisplayBlock{
+    background-color: #51cd83;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+.selectDisplayBlock label{
+    display: inline;
+    font-size: 18px;
+    padding: 2px;
+    margin: 1px;
+}
+
+.selectDisplayBlock span{
+    font-size: 17px;
+    padding: 3px;
+    margin: 5px;
+}
